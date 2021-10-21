@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        
+    {
+        "name": "(lldb) 启动",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "${workspaceFolder}/hello",
+        "args": ["-root","~/web","-port","8080"],
+        "stopAtEntry": false,
+        "cwd": "${fileDirname}",
+        "environment": [],
+        "externalConsole": false,
+        "MIMode": "lldb"
+    }
+    ]
+}
