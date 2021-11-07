@@ -72,6 +72,7 @@ int main(int argc, const char **argv)
 
     // insert code here...
     printf("Hello, World!\n");
+    if(argc > 2){
     printf("fact 5 = ");
     printf("%d \n", fact(5));
     printf("argv address %p",argv);
@@ -83,6 +84,14 @@ int main(int argc, const char **argv)
     printf("if argv[1] is %s \n", argv[1]);
     printf("if argv[2] is %s \n", argv[2]);
     printf("if argv[7] is %s \n", argv[7]);
-
+    }
+    char *p =0;
+    char *s = "liweisheng is good!";
+    p = s;
+    printf("length is %lu",strlen(s));
+    *s = 'u';
+    printf("length is %s",p);
+ 
     // return hello();
+    return 0;
 }

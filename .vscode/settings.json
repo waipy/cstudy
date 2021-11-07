@@ -34,6 +34,10 @@
         "bit": "c",
         "chrono": "c",
         "unordered_map": "c",
-        "lib.h": "c"
+        "lib.h": "c",
+        "iostream": "cpp",
+        "iosfwd": "cpp",
+        "__split_buffer": "cpp",
+        "initializer_list": "cpp"
     }
 }
